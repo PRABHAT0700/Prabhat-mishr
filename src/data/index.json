@@ -1,0 +1,78 @@
+{
+    "skills": [
+      {
+        "id": "1",
+        "src": "https://cdn.iconscout.com/icon/free/png-256/free-react-1-282599.png?f=webp",
+        "title": "Front - End",
+        "description": " Working with React js, javaScript, Redux, Flux, Routes, HTML5, CSS3, SASS, BootStrap, Tailwind, Material UI. "
+      },
+      {
+        "id": "2",
+        "src": "https://w7.pngwing.com/pngs/702/915/png-transparent-ruby-on-rails-round-logo-tech-companies-thumbnail.png",
+        "title": "Back - End",
+        "description": "During my Full-stack development Certification..i have learn Basic understanding of Ruby on Rail's "
+      },
+      {
+        "id": "3",
+        "src": "https://w7.pngwing.com/pngs/733/355/png-transparent-multicolored-light-bulb-illustration-graphic-designer-logo-idea-web-design-company-poster.png",
+        "title": "UI & UX Design",
+        "description": " I value simple content structure, clean design patterns, and thoughtful interactions. "
+      },
+      {
+        "id": "4",
+        "src": "https://i.pinimg.com/originals/cc/b0/95/ccb0956f1d63cab069840c18224e9001.png",
+        "title": "Mentor",
+        "description": "I genuinely care about people, and love helping fellow designers work on their craft."
+      }
+    ],
+    "portfolio": [
+      {
+        "id": "1",
+        "src":"https://scontent.xx.fbcdn.net/v/t1.15752-9/369769696_260754063506168_2634060308369519327_n.png?stp=dst-png_p403x403&_nc_cat=110&ccb=1-7&_nc_sid=aee45a&_nc_ohc=dQ9twne6qCsAX8eTnop&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQ14Bf7JzxCHnjqaZeXcN3MTfUOCu0V9jHtKpcoVTUWgw&oe=650B50F6",
+        "title": "Speech to Text App",
+        "description": "i Have made this Amazing tool which convert your speeking word's to Text. Where User can click the button to start Recording and Stop recording and user can Copy to Clipboard and paste at anywhere ********************* Using React js, Node Package's, JavaScript, HTML5, CSS3, Material UI",
+        "link": "View In Github"
+      },
+      {
+        "id": "2",
+        "src": "https://scontent.xx.fbcdn.net/v/t1.15752-9/369014793_1171979857526122_6572640172694280174_n.png?stp=dst-png_p403x403&_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=ZWXtB41o49kAX_Ol-MH&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQwZ0dSyAMKGPL8Fy9xUx2DHrBe2d119y9JGqxado__Kg&oe=650B5D5C",
+        "title": "Movie Review (IMDb clone)",
+        "description": "i have made Movie review website using React, real time API. Where user can get movie review, his offical IMDb rating, moview photo's and description. I have provided 3 category's of movies, Popular, Top Rated, Upcoming... in this project i have learnd how to use API, Axios, Routing in Live Project's  ",
+        "link": "View In Github"
+      },
+      {
+        "id": "3",
+        "src": "https://scontent.xx.fbcdn.net/v/t1.15752-9/369472583_139062615921200_196715484600816648_n.png?stp=dst-png_p851x315&_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=FLr3LxIo6XcAX83JTKX&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQXRZAaPDMTGdFVrtm6X59ExbIr653BzMCZHe4lswdJSQ&oe=650B6F62",
+        "title": "My Restruant Website",
+        "description": " Before COVID, I had started my own startup in Indore, my own Restruant. For which I HAD made the website of my restaurant. using React js, react Hook's, react router, Material UI, javaScript, HTML5, CSS3. it was my firt real time project.. i have learnd very much after this project. ",
+        "link": "View In Github"
+      }
+    ],
+
+    "testimonial": [
+      {
+        "id": "1",
+        "count": "5",
+        "src": "https://my-awesome-react-project.netlify.app/img/avatar-image.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "author_name": "Dianne Russel",
+        "author_designation": "Starbucks"
+      },
+      {
+        "id": "2",
+        "count": "5",
+        "src": "https://my-awesome-react-project.netlify.app/img/avatar-image-1.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "author_name": "Kristin Watson",
+        "author_designation": "Louis Vuitton"
+      },
+      {
+        "id": "3",
+        "count": "5",
+        "src": "https://my-awesome-react-project.netlify.app/img/avatar-image-2.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "author_name": "Kathryn Murphy",
+        "author_designation": "McDonald's"
+      }
+    ]
+  }
