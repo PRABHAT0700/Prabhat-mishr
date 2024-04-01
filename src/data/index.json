@@ -3,49 +3,55 @@
       {
         "id": "1",
         "src": "https://cdn.iconscout.com/icon/free/png-256/free-react-1-282599.png?f=webp",
-        "title": "Front - End",
-        "description": " Working with React js, javaScript, Redux, Flux, Routes, HTML5, CSS3, SASS, BootStrap, Tailwind, Material UI. "
+        "title": "React js",
+        "description": "I possess a good understanding of React.js with a solid 1.2 years of hands-on experience, demonstrating proficiency and expertise in this technology."
       },
       {
         "id": "2",
-        "src": "https://w7.pngwing.com/pngs/702/915/png-transparent-ruby-on-rails-round-logo-tech-companies-thumbnail.png",
-        "title": "Back - End",
-        "description": "During my Full-stack development Certification..i have learn Basic understanding of Ruby on Rail's "
+        "src": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
+        "title": "javaScript",
+        "description": "JavaScript is my core expertise, enabling me to craft dynamic and visually captivating websites with a deep understanding and proficiency in this language."
       },
       {
         "id": "3",
-        "src": "https://w7.pngwing.com/pngs/733/355/png-transparent-multicolored-light-bulb-illustration-graphic-designer-logo-idea-web-design-company-poster.png",
-        "title": "UI & UX Design",
-        "description": " I value simple content structure, clean design patterns, and thoughtful interactions. "
+        "src": "https://seeklogo.com/images/H/html5-with-wordmark-color-logo-4259B7F24F-seeklogo.com.png",
+        "title": "HTML5 & CSS3",
+        "description": "With 1.5 years of HTML and CSS experience, I expertly translate Figma and Adobe XD designs, ensuring precise implementation tailored to client needs."
       },
       {
         "id": "4",
         "src": "https://i.pinimg.com/originals/cc/b0/95/ccb0956f1d63cab069840c18224e9001.png",
-        "title": "Mentor",
-        "description": "I genuinely care about people, and love helping fellow designers work on their craft."
+        "title": "Library",
+        "description": "I am proficient in various libraries such as NPM Package, Bootstrap, Tailwind, Material UI, TypeScript, SCSS & SASS, enriching React.js projects"
       }
     ],
     "portfolio": [
       {
         "id": "1",
-        "src":"https://scontent.xx.fbcdn.net/v/t1.15752-9/369769696_260754063506168_2634060308369519327_n.png?stp=dst-png_p403x403&_nc_cat=110&ccb=1-7&_nc_sid=aee45a&_nc_ohc=dQ9twne6qCsAX8eTnop&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQ14Bf7JzxCHnjqaZeXcN3MTfUOCu0V9jHtKpcoVTUWgw&oe=650B50F6",
+        "src":"https://scontent.xx.fbcdn.net/v/t1.15752-9/419546074_1378116346237673_2124898811885914033_n.png?stp=dst-png_s843x403&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=pl54qSt0sZIAX_1fSK6&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSQ-pU1a4urugwxd6cQZZFWTJ2mZwtbxP1Psj0hFAS00Q&oe=6632117F",
         "title": "Speech to Text App",
-        "description": "i Have made this Amazing tool which convert your speeking word's to Text. Where User can click the button to start Recording and Stop recording and user can Copy to Clipboard and paste at anywhere ********************* Using React js, Node Package's, JavaScript, HTML5, CSS3, Material UI",
-        "link": "View In Github"
+        "description": "i Have made this Amazing tool which convert your speeking word's to Text. Where User can click the button to start Recording and Stop recording and user can Copy to Clipboard and paste at anywhere Using React js, Node Package's, JavaScript, HTML5, CSS3, Material UI",
+        "link": "View In Github",
+        "newLink": "View LIVE",
+        "url": "https://prabhat0700.github.io/textAI/"
       },
       {
         "id": "2",
-        "src": "https://scontent.xx.fbcdn.net/v/t1.15752-9/369014793_1171979857526122_6572640172694280174_n.png?stp=dst-png_p403x403&_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=ZWXtB41o49kAX_Ol-MH&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQwZ0dSyAMKGPL8Fy9xUx2DHrBe2d119y9JGqxado__Kg&oe=650B5D5C",
+        "src": "https://scontent.xx.fbcdn.net/v/t1.15752-9/420527204_3651987761784554_7154724579567548169_n.png?stp=dst-png_p403x403&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=guokERPDno8AX8Z231m&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSSAOqYXAvi9zoBGn6oHamaOf-xZTMKoNvU-f8XsT8x6Q&oe=6631F26D",
         "title": "Movie Review (IMDb clone)",
         "description": "i have made Movie review website using React, real time API. Where user can get movie review, his offical IMDb rating, moview photo's and description. I have provided 3 category's of movies, Popular, Top Rated, Upcoming... in this project i have learnd how to use API, Axios, Routing in Live Project's  ",
-        "link": "View In Github"
+        "link": "View In Github",
+        "newLink": "View LIVE",
+        "url": "https://movie-review-prabhat0700.vercel.app/"
       },
       {
         "id": "3",
-        "src": "https://scontent.xx.fbcdn.net/v/t1.15752-9/369472583_139062615921200_196715484600816648_n.png?stp=dst-png_p851x315&_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=FLr3LxIo6XcAX83JTKX&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQXRZAaPDMTGdFVrtm6X59ExbIr653BzMCZHe4lswdJSQ&oe=650B6F62",
-        "title": "My Restruant Website",
-        "description": " Before COVID, I had started my own startup in Indore, my own Restruant. For which I HAD made the website of my restaurant. using React js, react Hook's, react router, Material UI, javaScript, HTML5, CSS3. it was my firt real time project.. i have learnd very much after this project. ",
-        "link": "View In Github"
+        "src": "https://scontent.xx.fbcdn.net/v/t1.15752-9/420690670_966848404791161_5099747739175974670_n.png?stp=dst-png_p403x403&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=UhrGOP_KCugAX_WB5fB&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTyIxxrPHykkYLTk6RK970XC6FHYoYyEMpmm9YYnt2qqA&oe=6631FAC4",
+        "title": "My Family Business Website",
+        "description": "I developed a website for my family's advertising agency, which promotes through social media and offline posters. This project provided significant learning opportunities during my developmental phase, contributing to my growth in web development understanding.",
+        "link": "View In Github",
+        "newLink": "View LIVE",
+        "url": "https://ad-tech-advertising.vercel.app/"
       }
     ],
 

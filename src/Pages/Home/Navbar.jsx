@@ -1,13 +1,15 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import Logo from "./images/Logo.png"
+import pmLogo from "./images/pmLogo.png"
 
 
 function Navbar() {
 
   const [navActive, setNavActive] = useState(false);
 
-  const toggleNav = () => {
+  const toggleNav = (event) => {
+    event.preventDefault();
+    
     setNavActive(!navActive);
   };
 
@@ -40,10 +42,10 @@ function Navbar() {
     <nav className={`navbar ${navActive ? "active" : ""}`}>
 
       <div>
-        <img src={Logo} alt="Logoipsum" height="40px" width="100px" />
+        <img src={pmLogo} alt="Logoipsum" height="40px" width="100px" />
       </div>
 
-      <a
+      <a href="."
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
       >
@@ -81,10 +83,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
+              to="AboutMe"
               className="navbar--content"
             >
-              Portfolio
+              About Me
             </Link>
           </li>
 
@@ -96,10 +98,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="AboutMe"
+              to="MyPortfolio"
               className="navbar--content"
             >
-              About Me
+              Portfolio
             </Link>
           </li>
 

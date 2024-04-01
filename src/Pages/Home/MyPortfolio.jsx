@@ -14,12 +14,11 @@ export default function MyPortfolio() {
         </div>
 
         <div>
-          <a style={{textDecoration:"none"}} href="https://github.com/PRABHAT0700"><button className="btn btn-github">
+          <a style={{textDecoration:"none"}} target=".." href="https://github.com/PRABHAT0700"><button className="btn btn-github">
 
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" style={{heigh:"10px", width:"50px"}} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="git svg" style={{heigh:"10px", width:"50px"}} />
             Visit My GitHub
           </button></a>
-
         </div>
 
       </div>
@@ -59,6 +58,7 @@ export default function MyPortfolio() {
                 </svg>
 
               </p>
+              <a style={{textDecoration:"none"}} target=".." href={item.url}>{item.newLink}</a>
             </div>
 
           </div>
