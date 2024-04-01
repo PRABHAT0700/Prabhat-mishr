@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/Prabhat-mishr/static/css/main.7de7a1f2.css",
-    "main.js": "/Prabhat-mishr/static/js/main.dc3ae4ad.js",
+    "main.css": "/Prabhat-mishr/static/css/main.7f81fbe3.css",
+    "main.js": "/Prabhat-mishr/static/js/main.3000010d.js",
     "static/media/aboutme.png": "/Prabhat-mishr/static/media/aboutme.3886d6faf24016060497.png",
     "static/media/mypic.png": "/Prabhat-mishr/static/media/mypic.d8133b6bcf33ddd97821.png",
-    "static/media/Logo.png": "/Prabhat-mishr/static/media/Logo.55e37e19bc18db4f74e9.png",
+    "static/media/pmLogo.png": "/Prabhat-mishr/static/media/pmLogo.5d6a01cea168d2eabad4.png",
+    "static/media/notification.svg?s3g3t9": "/Prabhat-mishr/static/media/notification.5d0158671dd860c714c4.svg",
+    "static/media/notification.eot": "/Prabhat-mishr/static/media/notification.3657084dc0419605a91c.eot",
+    "static/media/notification.woff?s3g3t9": "/Prabhat-mishr/static/media/notification.c392cd33d9d9de730f9d.woff",
+    "static/media/notification.ttf?s3g3t9": "/Prabhat-mishr/static/media/notification.c5d9251ea82e42f75381.ttf",
     "index.html": "/Prabhat-mishr/index.html",
-    "main.7de7a1f2.css.map": "/Prabhat-mishr/static/css/main.7de7a1f2.css.map",
-    "main.dc3ae4ad.js.map": "/Prabhat-mishr/static/js/main.dc3ae4ad.js.map"
+    "main.7f81fbe3.css.map": "/Prabhat-mishr/static/css/main.7f81fbe3.css.map",
+    "main.3000010d.js.map": "/Prabhat-mishr/static/js/main.3000010d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7de7a1f2.css",
-    "static/js/main.dc3ae4ad.js"
+    "static/css/main.7f81fbe3.css",
+    "static/js/main.3000010d.js"
   ]
 }
