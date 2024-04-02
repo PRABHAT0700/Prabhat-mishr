@@ -352,7 +352,7 @@ h2 {
 /* About Us */
 .about--section {
   display: grid;
-  padding: 133.3px 85.3px;
+  padding: 41.3px 85.3px;
   align-items: center;
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
@@ -374,7 +374,8 @@ h2 {
 /* My Portfolio Starts */
 .portfolio--section {
   display: flex;
-  padding: 112px 85px;
+  /* padding: 112px 85px; */
+  padding: 24px 85px;
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;

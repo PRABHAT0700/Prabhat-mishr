@@ -1,6 +1,13 @@
 import data from "../../data/index.json";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 export default function Testimonial() {
+
+  const { ref, inView } = useInView({
+    threshold: 0.5 // Adjust threshold as per your requirement
+  });
+
 
   return (
 
@@ -13,7 +20,14 @@ export default function Testimonial() {
         </div>
       </div>
 
-      <div className="portfolio--section--container">
+      <motion.div
+          className="portfolio--section--container"
+          ref={ref}
+          initial={{ opacity: 0, y: 50 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          exit={{ opacity: 0, y: -50 }}
+          transition={{ duration: 0.5 }}
+         >
         {data?.testimonial?.map((item, index) => (
             
           <div key={index} className="testimonial--section--card">
@@ -58,7 +72,7 @@ export default function Testimonial() {
 
           </div>
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 }

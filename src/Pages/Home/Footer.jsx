@@ -1,8 +1,14 @@
 import { Link } from "react-scroll";
 import React from "react";
 import pmLogo from "./images/pmLogo.png"
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 function Footer() {
+
+  const { ref, inView } = useInView({
+    threshold: 0.5 // Adjust threshold as per your requirement
+  });
 
   return (
 
@@ -10,11 +16,24 @@ function Footer() {
 
       <div className="footer--link--container">
 
-        <div>
-          <img src={pmLogo} alt="Logoipsum" height="50px" width="120px"/>
-        </div>
+        <motion.div
+          ref={ref}
+          initial={{ opacity: 0, y: -30 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          exit={{ opacity: 0, y: -50 }}
+          transition={{ duration: 0.8 }}
+         >
+          <motion.img src={pmLogo} alt="Logoipsum"  height="50px" width="120px" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} />
+        </motion.div>
 
-        <div className="footer--items">
+        <motion.div
+          className="footer--items"
+          ref={ref}
+          initial={{ opacity: 0, y: -30 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          exit={{ opacity: 0, y: -50 }}
+          transition={{ duration: 0.6 }}
+         >
           <ul>
             <li>
               <Link
@@ -82,10 +101,17 @@ function Footer() {
               </Link>
             </li>
           </ul>
-        </div>
+        </motion.div>
 
 
-        <div className="footer--social--icon">
+        <motion.div
+          className="footer--social--icon"
+          ref={ref}
+          initial={{ opacity: 0, y: -30 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          exit={{ opacity: 0, y: -50 }}
+          transition={{ duration: 0.8 }}
+         >
           <ul>
             <li>
               <a
@@ -158,12 +184,12 @@ function Footer() {
             </li>
 
           </ul>
-        </div>
+        </motion.div>
       </div>
 
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made 💖 by Prabhat  </p>
+        <p className="footer--content"> iammishraprabhat@gmail.com  </p>
         <div className="footer--social--icon">
           <ul>
             <li>

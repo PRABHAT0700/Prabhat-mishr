@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import 'react-notifications/lib/notifications.css';
 import { NotificationContainer, NotificationManager } from "react-notifications";
-
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 export default function ContactMe() {
   const [firstName, setFirstName] = useState("");
@@ -10,6 +11,10 @@ export default function ContactMe() {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [topic, setTopic] = useState("");
   const [message, setMessage] = useState("");
+
+  const { ref, inView } = useInView({
+    threshold: 0.5 // Adjust threshold as per your requirement
+  });
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -30,7 +35,13 @@ export default function ContactMe() {
   return (<>
     <NotificationContainer />
     <section id="Contact" className="contact--section">
-      <div>
+      <motion.div
+          ref={ref}
+          initial={{ opacity: 0, y: 50 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          exit={{ opacity: 0, y: -50 }}
+          transition={{ duration: 0.5 }}
+         >
         <p className="sub--title">Get In Touch</p>
         <h2>Contact Me</h2>
         <br />
@@ -39,7 +50,7 @@ export default function ContactMe() {
           back to
           <br /> you as soon as possible
         </p>
-      </div>
+      </motion.div>
 
       <form className="contact--form--container" onSubmit={handleSubmit}>
         <div className="container">
