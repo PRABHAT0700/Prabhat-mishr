@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import pmLogo from "./images/pmLogo.png"
+import { motion, useViewportScroll, useTransform } from "framer-motion";
 
 
 function Navbar() {
@@ -36,6 +37,9 @@ function Navbar() {
      return closeMenu;
     }
   }, []);
+
+  const { scrollYProgress } = useViewportScroll();
+  const thumbY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
   return (
 
@@ -135,6 +139,33 @@ function Navbar() {
       >
         Contact Me
       </Link>
+
+      {/* Custom Scrollbar */}
+      <motion.div
+        className="custom-scrollbar"
+        style={{
+          position: "fixed",
+          right: "0",
+          top: "0",
+          bottom: "0",
+          width: "100%",
+          backgroundColor: "none",
+          borderRadius: "4px",
+          zIndex: 1 // Adjust z-index as needed
+        }}
+        >
+        <motion.div
+          className="scroll-thumb"
+          style={{
+            position: "absolute",
+            top: 0,
+            width: thumbY,
+            backgroundColor: "#40779b",
+            borderRadius: "4px",
+            height: "5px"
+          }}
+        />
+      </motion.div>
 
     </nav>
   );
